@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace lesson1
+namespace DZ1
 {
     class Program
     {
@@ -10,11 +10,8 @@ namespace lesson1
             double b = 12.40;
 
             double c = a * b;
-            double  result = Math.Sqrt(c);
+            double result = Math.Sqrt(c);
             Console.WriteLine(Math.Round(result, 2));
-
         }
-
-
     }
 }

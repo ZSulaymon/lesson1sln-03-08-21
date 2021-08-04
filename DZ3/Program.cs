@@ -30,9 +30,9 @@ namespace DZ3
             double y2 = Convert.ToDouble(Console.ReadLine());
             double dist = 0;
             // dist = Math.Pow((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
-            dist = (int)Math.Sqrt((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
+           // dist = (int)Math.Sqrt((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
 
-            //dist = (double)Math.Sqrt((Math.Pow((x2 - x1), 2) ) + (Math.Pow((y2 - y1), 2) ));
+            dist = (double)Math.Sqrt((Math.Pow((x2 - x1), 2) ) + (Math.Pow((y2 - y1), 2) ));
             Console.WriteLine(Math.Round(dist,2));
 
   
