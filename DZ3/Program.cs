@@ -19,16 +19,16 @@ namespace DZ3
                        // dist = Math.Pow((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
                        dist = (int)Math.Sqrt((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
                         Console.WriteLine(dist);*/
-           // double x1, x2, y1, y2, dist;
+            double x1, x2, y1, y2, dist;
             Console.WriteLine("Введите x1");
-            double x1 = Convert.ToDouble(Console.ReadLine());
+            x1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите x2");
-            double x2 = Convert.ToDouble(Console.ReadLine());
+            x2 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите y1");
-            double y1 = Convert.ToDouble(Console.ReadLine());
+            y1 = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine("Введите y2");
-            double y2 = Convert.ToDouble(Console.ReadLine());
-            double dist = 0;
+            y2 = Convert.ToDouble(Console.ReadLine());
+            dist = 0;
             // dist = Math.Pow((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
            // dist = (int)Math.Sqrt((Math.Pow(x2, 2) - Math.Pow(x1, 2)) + (Math.Pow(y2, 2) - Math.Pow(y1, 2)));
 
