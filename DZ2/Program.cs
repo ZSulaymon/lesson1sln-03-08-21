@@ -22,15 +22,15 @@ namespace DZ2
                  decimal b = Convert.ToDecimal(Console.ReadLine());
                  decimal c = Convert.ToDecimal(Console.ReadLine());
 
-                 decimal AC = Math.Round(a - c,2);
-                 decimal BC = Math.Round(b - c,2);
+                 decimal AC = Math.Abs(a - c);
+                 decimal BC = Math.Abs(b - c);
      
                  decimal summ = AC + BC;
             
 
             Console.WriteLine($"Длина отрезка АС = " +  AC);
             Console.WriteLine($"Длина отрезка BC = " +  BC);
-            Console.WriteLine($"Сумма АC и BC = " + Math.Round(AC-BC,2));
+            Console.WriteLine($"Сумма АC и BC = " + Math.Abs(AC+BC));
 
 
         }
